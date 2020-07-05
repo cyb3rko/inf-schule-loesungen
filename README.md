@@ -4,7 +4,7 @@
 [![open pull requests](https://img.shields.io/github/issues-pr/nikothegreek/inf-schule-loesungen?color=F19A24)](https://github.com/nikothegreek/inf-schule-loesungen/pulls)
 [![stars](https://img.shields.io/github/stars/nikothegreek/inf-schule-loesungen?color=F3E64C)](https://github.com/nikothegreek/inf-schule-loesungen/stargazers)
 [![last commit](https://img.shields.io/github/last-commit/nikothegreek/inf-schule-loesungen?color=F34C9F)](https://github.com/nikothegreek/inf-schule-loesungen/commits/master)
-[![license](https://img.shields.io/github/license/nikothegreek/inf-schule-loesungen)](https://www.apache.org/licenses/LICENSE-2.0)
+[![CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-sa/4.0/)
 
 - [Wichtige Info!](#wichtige-info)
 - [Über das Projekt](#über-das-projekt)
@@ -98,16 +98,4 @@ Das Benutzen eines einheitlichen Code-Formats macht es für mich und jeden ander
 
 ## Lizenz
 
-    Copyright 2020 nikothegreek
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-    
-        http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+Dieses Projekt unterliegt den Bestimmungen einer [Creative Commons Attribution-ShareAlike 4.0 International Public License](https://creativecommons.org/licenses/by-sa/4.0/deed.de).
