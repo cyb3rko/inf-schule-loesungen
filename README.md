@@ -27,7 +27,7 @@ Natürlich kann nicht gewährleistet werden, dass die Lösungen zu 100% korrekt 
 
 ## Beispiel
 
-|[<img src="https://imgur.com/ebJpvvk.png">](2.%20Einstiege%20in%20die%20Programmierung/2.3.%20Objektorientierte%20Programmierung%20mit%20Java/2.3.1.%20Aufbau%20von%20Klassen/2.3.1.1%20Hasen%20als%20Objekte)|[<img src="https://imgur.com/kRRMi8Z.png">](2.%20Einstiege%20in%20die%20Programmierung/2.3.%20Objektorientierte%20Programmierung%20mit%20Java/2.3.1.%20Aufbau%20von%20Klassen/2.3.1.1%20Hasen%20als%20Objekte)|
+|[<img src="https://imgur.com/ebJpvvk.png">](2/2.3/2.3.1/2.3.1.1%20Hasen%20als%20Objekte)|[<img src="https://imgur.com/kRRMi8Z.png">](2/2.3/2.3.1/2.3.1.1%20Hasen%20als%20Objekte)|
 |:---:|:---:|
 
 ## Liste aller verfügbaren Lösungen
