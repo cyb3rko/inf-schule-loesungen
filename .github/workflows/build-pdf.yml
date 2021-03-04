@@ -1,0 +1,43 @@
+name: Build LaTeX PDF files
+on:
+  push:
+    paths:
+      - '**.tex'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v2
+      - name: Read committed files
+        uses: jitterbit/get-changed-files@v1
+        id: files
+        with:
+          format: space-delimited
+      - run: |
+          echo "${{ steps.files.outputs.all }}"
+          for changed_file in ${{ steps.files.outputs.all }}; do
+            echo "Found file: ${changed_file}."
+          done
+      - id: lines
+        run: |
+          import os
+          import shlex
+          # %0A is a URL-encoded newline (\n)
+          output = '%0A'.join(shlex.split(os.environ['INPUT_LIST']))
+          print(f'::set-output name=list::{output}')
+        shell: python
+        env:
+          INPUT_LIST: ${{ steps.files.outputs.all }}
+      - name: Compile LaTeX document
+        uses: xu-cheng/latex-action@v2
+        with:
+          root_file: ${{ steps.lines.outputs.list }}
+      - name: Save PDF file(s)
+        uses: actions/upload-artifact@v2
+        with:
+          name: PDF
+          path: |
+            *.pdf
+            **/*.pdf
