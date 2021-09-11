@@ -1,7 +1,7 @@
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 %	PAKET-/ UND ANDERE DOKUMENT-IMPORTS
-%----------------------------------------------------------------------------------------
-\documentclass[]{scrartcl}   % Formateinstellungen
+%--------------------------------------
+\documentclass{scrartcl}   % Formateinstellungen
 \usepackage[ngerman]{babel} % deutsche Silbentrennung
 \usepackage[utf8]{inputenc} % deutsche Umlaute
 \usepackage{placeins}   % verbessert Anzeige eines Floats hinter dem Befehl \FloatBarrier
@@ -28,12 +28,12 @@
 \usepackage[hidelinks]{hyperref}    % ermöglicht das Hinzufügen von Links und Verweisen innerhalb
                                     % des PDF Dokuments und weitere Einstellungen
 \usepackage[left=2.5cm,right=2cm,top=2cm,bottom=2cm,includeheadfoot]{geometry}  % Größenanpassung der Seite
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 
 
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 %   KONFIGURATIONEN
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 \begin{document}
 \setlength{\parskip}{1ex}   % Abstand zwischen Absätzen 
 \parindent 0pt  % legt Einrücke der ersten Zeile fest
@@ -55,44 +55,48 @@
 \fancypagestyle{plain}  % legt Seiten-Typen fest
 
 \newcommand{\barrow}{\item[\ding{228}]} % hinzufügen des Pfeil-Aufzählsymbols unter dem Command \barrow
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 
 
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 %   1. SEITE
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 \titlehead{\Large
 
 \begin{center}
+\centering 
+\begin{normalsize}
+\textit{Lizensiert unter einer \href{https://creativecommons.org/licenses/by-sa/4.0/legalcode.de}{CC-BY-SA 4.0-Lizenz}}
+\end{normalsize}
 \begin{framed}
-\centering {Inoffizielle Lösungen und Erklärungen - \href{https://www.inf-schule.de/inf-schule}{inf-schule\textsuperscript{\textcopyright}} (\href{https://creativecommons.org/licenses/by-sa/4.0/legalcode.de}{\textit{Lizenz}})}
+\centering {Inoffizielle Lösungen und Erklärungen - \href{https://www.inf-schule.de}{inf-schule} (\href{https://creativecommons.org/licenses/by-sa/4.0/legalcode.de}{\textit{Lizenz}})}
 
-\centering {\Large\textbf{\href{https://inf-schule.de/programmierung/oopjava}{2.3 Objektorientierte Programmierung mit Java}}}
+\centering {\Large\textbf{\href{https://www.inf-schule.de/oop/java}{7.1 Objektorientierte Programmierung mit Java}}}
 \end{framed}
 \end{center}}
 
-\title{\huge{\href{https://inf-schule.de/programmierung/oopjava/klassen/grundbegriffe}{1.1\\Hasen als Objekte}}\\
+\title{\huge{\href{https://www.inf-schule.de/oop/java/klassen/grundbegriffe}{1.1\\Hasen als Objekte}}\\
 \vspace{0.5cm}
 \begin{figure}[ht]
 	\centering
-	\includegraphics[height=4.5cm]{2.3.1.1/Hasen_als_Objekte.png}
+	\includegraphics[height=4.5cm]{Hasen_als_Objekte.png}
 \end{figure}
-\vspace{2cm}}
+\vspace{0.7cm}}
 
 \author{\textbf{Benötigte IDEs:}\\
 \href{https://www.greenfoot.org/}{Greenfoot}, \href{https://www.bluej.org/}{BlueJ}
-\vspace{2cm}}
+\vspace{1cm}}
 
 \date{\textbf{Verfasser:}\\
-\href{https://nikothegreek.jimdofree.com/}{Niko Diamadis}\\
-\vspace{0.5cm}
+\href{https://cyb3rko.de}{Niko Diamadis (Cyb3rKo)}\\
+\vspace{1cm}
 \textbf{Erstellungs-/ Änderungsdatum}\\
 \today\enlargethispage{4cm}}
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 %   2. SEITE
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 \doublespacing
 
 \maketitle\thispagestyle{empty}
@@ -102,12 +106,12 @@
 
 \setcounter{page}{1}
 \tableofcontents
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 
 
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 %   3. UND NACHFOLGENDE SEITEN
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 \newpage
 \pagenumbering{arabic}  % Ändern der Seitenangabe
 
@@ -120,18 +124,18 @@ Die gegebenen Anweisungen sollten selbsterklärend sein, hier nur noch eine pass
 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[height=4.5cm]{2.3.1.1/1.Objekte_in_Aktion/1-1.png}
+	\includegraphics[height=4.5cm]{7.1.1.1/1.Objekte_in_Aktion/1-1.png}
 	\hspace{0.5cm}
-	\includegraphics[height=4.5cm]{2.3.1.1/1.Objekte_in_Aktion/1-2.png}
+	\includegraphics[height=4.5cm]{7.1.1.1/1.Objekte_in_Aktion/1-2.png}
 \end{figure}
 
 \vspace{0.5cm}
 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[height=4.5cm]{2.3.1.1/1.Objekte_in_Aktion/1-3.png}
+	\includegraphics[height=4.5cm]{7.1.1.1/1.Objekte_in_Aktion/1-3.png}
 	\hspace{0.5cm}
-	\includegraphics[height=4.5cm]{2.3.1.1/1.Objekte_in_Aktion/1-4.png}
+	\includegraphics[height=4.5cm]{7.1.1.1/1.Objekte_in_Aktion/1-4.png}
 \end{figure}
 
 \subsection{Methoden}
@@ -156,9 +160,9 @@ Es folgen Bilder zur Erklärung, wie die Methoden von \texttt{Hase} und \texttt{
 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[height=5.5cm]{2.3.1.1/1.Objekte_in_Aktion/2-1.png}
+	\includegraphics[height=5.5cm]{7.1.1.1/1.Objekte_in_Aktion/2-1.png}
 	\hspace{0.5cm}
-	\includegraphics[height=5.5cm]{2.3.1.1/1.Objekte_in_Aktion/2-2.png}
+	\includegraphics[height=5.5cm]{7.1.1.1/1.Objekte_in_Aktion/2-2.png}
 \end{figure}
 
 \subsection{Parameter \& Datentypen}
@@ -166,7 +170,7 @@ Nach Aufruf der Methode \texttt{setRichtung} am \texttt{Hasen}-Objekt öffnet si
 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[height=5cm]{2.3.1.1/1.Objekte_in_Aktion/3-1.png}
+	\includegraphics[height=5cm]{7.1.1.1/1.Objekte_in_Aktion/3-1.png}
 \end{figure}
 
 Wie im Bild zu sehen findet man im Eingabefenster den Datentypen des Eingabewertes, der verlangt wird, in diesem Falle vom Typen \texttt{int}, also \texttt{Integer}\footnote{sprich ganzzahlige Werte von $-2^{32}$ (-2.147.483.6489) bis $2^{32} -1$ (2.147.483.647) inklusive der 0}. Zu bedenken ist jedoch, dass natürlich nicht alle Eingaben sinnvoll sind und verarbeitet werden können.\\
@@ -174,16 +178,16 @@ Selbiges gilt für die Methode \texttt{erzeugeObjekte}, nur dass dort drei Einga
 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[height=5cm]{2.3.1.1/1.Objekte_in_Aktion/3-2.png}
+	\includegraphics[height=5cm]{7.1.1.1/1.Objekte_in_Aktion/3-2.png}
 	\hspace{0.5cm}
-	\includegraphics[height=5cm]{2.3.1.1/1.Objekte_in_Aktion/3-3.png}
+	\includegraphics[height=5cm]{7.1.1.1/1.Objekte_in_Aktion/3-3.png}
 \end{figure}
 
 \vspace{0.5cm}
 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[height=4.5cm]{2.3.1.1/1.Objekte_in_Aktion/3-4.png}
+	\includegraphics[height=4.5cm]{7.1.1.1/1.Objekte_in_Aktion/3-4.png}
 \end{figure}
 
 \subsection{Rückgabewerte}
@@ -193,7 +197,7 @@ Uns stehen bei diesem Beispiel nur zwei Methoden mit Rückgabewert zur Verfügun
 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[height=5cm]{2.3.1.1/1.Objekte_in_Aktion/4-1.png}
+	\includegraphics[height=5cm]{7.1.1.1/1.Objekte_in_Aktion/4-1.png}
 \end{figure}
 
 Wenn man also jetzt die zurückgegebenen Werte mit den zugehörigen Signaturen abgleicht, müsste auffallen, dass beide Werte Sinn ergeben.
@@ -202,9 +206,9 @@ Wenn man also jetzt die zurückgegebenen Werte mit den zugehörigen Signaturen a
 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[height=4.5cm]{2.3.1.1/1.Objekte_in_Aktion/4-2.png}
+	\includegraphics[height=4.5cm]{7.1.1.1/1.Objekte_in_Aktion/4-2.png}
 	\hspace{0.5cm}
-	\includegraphics[height=4.5cm]{2.3.1.1/1.Objekte_in_Aktion/4-3.png}
+	\includegraphics[height=4.5cm]{7.1.1.1/1.Objekte_in_Aktion/4-3.png}
 \end{figure}
 
 \subsection{Attribute}
@@ -213,7 +217,7 @@ Das geforderte Inspizieren eines Objektes ist ganz einfach durch einen Rechtskli
 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[height=10cm]{2.3.1.1/1.Objekte_in_Aktion/5-1.png}
+	\includegraphics[height=10cm]{7.1.1.1/1.Objekte_in_Aktion/5-1.png}
 \end{figure}
 
 Die als Beispiel gesuchten Attribute für die Position des Objektes sind \texttt{int x} und \texttt{int y}.
@@ -222,7 +226,7 @@ Die als Beispiel gesuchten Attribute für die Position des Objektes sind \texttt
 
 \subsection{Quelltext}
 Zu dieser Aufgabe sind meines Erachtens nach keine Anleitungen und/oder Erläuterungen nötig.\\
-Wenn doch Fragen aufkommen, schreib' einfach an \textbf{\href{mailto:nikodiamond3@gmail.com}{nikodiamond3@gmail.com}}.
+Wenn doch Fragen aufkommen, schreib' einfach an \textbf{\href{mailto:niko@cyb3rko.de}{niko@cyb3rko.de}}.
 
 \subsection{Vererbung}
 
@@ -230,7 +234,7 @@ Die markierten Methoden sind die von \texttt{Actor} vererbten Methoden, alle, we
 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[height=9.5cm]{2.3.1.1/1.Objekte_in_Aktion/7-1.png}
+	\includegraphics[height=9.5cm]{7.1.1.1/1.Objekte_in_Aktion/7-1.png}
 \end{figure}
 
 Analog funktioniert es auch mit der Klasse \texttt{Elefant}.
@@ -247,20 +251,20 @@ Anschließend folgen noch die geforderten Ergänzungen im Klassendiagramm.\\
 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[height=9.5cm]{2.3.1.1/1.Objekte_in_Aktion/8-1.png}
+	\includegraphics[height=9.5cm]{7.1.1.1/1.Objekte_in_Aktion/8-1.png}
 \end{figure}
 
 \newpage
 
 \section{Fachkonzept - Objekt}
 Zu dieser Seite sind meines Erachtens nach keine Anleitungen und/oder Erläuterungen nötig.\\
-Wenn doch Fragen aufkommen, schreib' einfach an \textbf{\href{mailto:nikodiamond3@gmail.com}{nikodiamond3@gmail.com}}.
+Wenn doch Fragen aufkommen, schreib' einfach an \textbf{\href{mailto:niko@cyb3rko.de}{niko@cyb3rko.de}}.
 
 \newpage
 
 \section{Fachkonzept - Klasse}
 Zu dieser Seite sind meines Erachtens nach keine Anleitungen und/oder Erläuterungen nötig.\\
-Wenn doch Fragen aufkommen, schreib' einfach an \textbf{\href{mailto:nikodiamond3@gmail.com}{nikodiamond3@gmail.com}}.
+Wenn doch Fragen aufkommen, schreib' einfach an \textbf{\href{mailto:niko@cyb3rko.de}{niko@cyb3rko.de}}.
 
 \newpage
 
@@ -293,7 +297,7 @@ Hier folgt die Struktur der Beispielsklasse \texttt{Person}.
 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[height=4.5cm]{2.3.1.1/4.Uebungen/1-1.png}
+	\includegraphics[height=4.5cm]{7.1.1.1/4.Uebungen/1-1.png}
 \end{figure}
 
 \newpage
@@ -356,7 +360,7 @@ Im Screencast wurden folgende Schritte ausgeführt:
 
 \begin{figure}[ht]
     \centering
-	\includegraphics[height=10cm]{2.3.1.1/4.Uebungen/2-1.png}
+	\includegraphics[height=10cm]{7.1.1.1/4.Uebungen/2-1.png}
 \end{figure}
 
 Den Screencast lasse ich aus, das kannst du ja selber erledigen, wenn du es noch machen möchtest.
@@ -367,16 +371,16 @@ Den Screencast lasse ich aus, das kannst du ja selber erledigen, wenn du es noch
 
 \begin{figure}[ht]
     \centering
-	\includegraphics[height=11cm]{2.3.1.1/4.Uebungen/3-1.png}
+	\includegraphics[height=11cm]{7.1.1.1/4.Uebungen/3-1.png}
 \end{figure}
 
 \vspace{0.5cm}
 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[height=5.5cm]{2.3.1.1/4.Uebungen/3-2.png}
+	\includegraphics[height=5.5cm]{7.1.1.1/4.Uebungen/3-2.png}
 	\hspace{0.5cm}
-	\includegraphics[height=5.5cm]{2.3.1.1/4.Uebungen/3-3.png}
+	\includegraphics[height=5.5cm]{7.1.1.1/4.Uebungen/3-3.png}
 \end{figure}
 
 \newpage
@@ -385,7 +389,7 @@ Den Screencast lasse ich aus, das kannst du ja selber erledigen, wenn du es noch
 
 \begin{figure}[ht]
     \centering
-	\includegraphics[height=13.5cm]{2.3.1.1/4.Uebungen/4-1.png}
+	\includegraphics[height=13.5cm]{7.1.1.1/4.Uebungen/4-1.png}
 \end{figure}
 
 \end{document}

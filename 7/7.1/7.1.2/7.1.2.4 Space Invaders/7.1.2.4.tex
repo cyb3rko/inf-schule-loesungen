@@ -1,6 +1,6 @@
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 %	PAKET-/ UND ANDERE DOKUMENT-IMPORTS
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 \documentclass{scrartcl}   % Formateinstellungen
 \usepackage[ngerman]{babel} % deutsche Silbentrennung
 \usepackage[utf8]{inputenc} % deutsche Umlaute
@@ -29,12 +29,12 @@
                                     % des PDF Dokuments und weitere Einstellungen
 \usepackage[left=2.5cm,right=2cm,top=2cm,bottom=2cm,includeheadfoot]{geometry}  % Größenanpassung der Seite
 \usepackage{rotating} % ermöglicht Drehen von Bildern
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 
 
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 %   KONFIGURATIONEN
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 \begin{document}
 \setlength{\parskip}{1ex}   % Abstand zwischen Absätzen 
 \parindent 0pt  % legt Einrücke der ersten Zeile fest
@@ -57,44 +57,48 @@
 \fancypagestyle{plain}  % legt Seiten-Typen fest
 
 \newcommand{\barrow}{\item[\ding{228}]} % hinzufügen des Pfeil-Aufzählsymbols unter dem Command \barrow
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 
 
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 %   1. SEITE
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 \titlehead{\Large
 
 \begin{center}
+\centering 
+\begin{normalsize}
+\textit{Lizensiert unter einer \href{https://creativecommons.org/licenses/by-sa/4.0/legalcode.de}{CC-BY-SA 4.0-Lizenz}}
+\end{normalsize}
 \begin{framed}
-\centering {Inoffizielle Lösungen und Erklärungen - \href{https://www.inf-schule.de/inf-schule}{inf-schule\textsuperscript{\textcopyright}} (\href{https://creativecommons.org/licenses/by-sa/4.0/legalcode.de}{\textit{Lizenz}})}
+\centering {Inoffizielle Lösungen und Erklärungen - \href{https://www.inf-schule.de}{inf-schule} (\href{https://creativecommons.org/licenses/by-sa/4.0/legalcode.de}{\textit{Lizenz}})}
 
-\centering {\Large\textbf{\href{https://inf-schule.de/programmierung/oopjava}{2.3 Objektorientierte Programmierung mit Java}}}
+\centering {\Large\textbf{\href{https://www.inf-schule.de/oop/java}{7.1 Objektorientierte Programmierung mit Java}}}
 \end{framed}
 \end{center}}
 
-\title{\huge{\href{https://www.inf-schule.de/programmierung/oopjava/implementierung/spaceinvaders}{2.4\\Space Invaders}}\\
+\title{\huge{\href{https://www.inf-schule.de/oop/java/implementierung/spaceinvaders}{2.4\\Space Invaders}}\\
 \vspace{0.5cm}
 \begin{figure}[ht]
 	\centering
 	\href{https://creativecommons.org/licenses/by-sa/3.0/de/}{\includegraphics[height=4.5cm]{Space_Invaders.png}}
 \end{figure}
-\vspace{2cm}}
+\vspace{0.7cm}}
 
 \author{\textbf{Benötigte IDEs:}\\
 \href{https://www.greenfoot.org/}{Greenfoot}
-\vspace{2cm}}
+\vspace{1cm}}
 
 \date{\textbf{Verfasser:}\\
-\href{https://nikothegreek.jimdofree.com/}{Cyb3rKo}\\
-\vspace{0.5cm}
+\href{https://cyb3rko.de}{Niko Diamadis (Cyb3rKo)}\\
+\vspace{1cm}
 \textbf{Erstellungs-/ Änderungsdatum}\\
 \today\enlargethispage{4cm}}
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 %   2. SEITE
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 \doublespacing
 
 \maketitle\thispagestyle{empty}
@@ -104,12 +108,12 @@
 
 \setcounter{page}{1}
 \tableofcontents
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 
 
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 %   3. UND NACHFOLGENDE SEITEN
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 \newpage
 \pagenumbering{arabic}  % Ändern der Seitenangabe
 
@@ -129,7 +133,7 @@ Wenn doch Fragen aufkommen, schreib' einfach an \textbf{\href{mailto:niko@cyb3rk
 Hier erstmal meine Skizze zu meiner Spiel-Idee:\\
 \begin{figure}[ht]
 \begin{turn}{-90}
-	\includegraphics[width=11cm]{2.3.2.4/2.Entwicklung_des_Spiels/1-1.png}
+	\includegraphics[width=11cm]{7.1.2.4/2.Entwicklung_des_Spiels/1-1.png}
 \end{turn}
 \end{figure}
 
@@ -156,19 +160,19 @@ Hier erstmal meine Skizze zu meiner Spiel-Idee:\\
 
 
 \begin{figure}[ht]
-	\includegraphics[width=8cm]{2.3.2.4/2.Entwicklung_des_Spiels/2-1.png}
+	\includegraphics[width=8cm]{7.1.2.4/2.Entwicklung_des_Spiels/2-1.png}
 	\hspace{0.5cm}
-	\includegraphics[width=8cm]{2.3.2.4/2.Entwicklung_des_Spiels/2-2.png}
+	\includegraphics[width=8cm]{7.1.2.4/2.Entwicklung_des_Spiels/2-2.png}
 \end{figure}
 
 \begin{figure}[ht]
-	\includegraphics[width=8cm]{2.3.2.4/2.Entwicklung_des_Spiels/2-3.png}
+	\includegraphics[width=8cm]{7.1.2.4/2.Entwicklung_des_Spiels/2-3.png}
 	\hspace{0.5cm}
-	\includegraphics[width=8cm]{2.3.2.4/2.Entwicklung_des_Spiels/2-4.png}
+	\includegraphics[width=8cm]{7.1.2.4/2.Entwicklung_des_Spiels/2-4.png}
 \end{figure}
 
 \begin{figure}[ht]
-	\includegraphics[width=8cm]{2.3.2.4/2.Entwicklung_des_Spiels/2-5.png}
+	\includegraphics[width=8cm]{7.1.2.4/2.Entwicklung_des_Spiels/2-5.png}
 \end{figure}
 
 \newpage
@@ -206,7 +210,7 @@ Hier erstmal meine Skizze zu meiner Spiel-Idee:\\
 
 \subsection{Programm}
 
-Da dieses Projekt schon etwas komplexer ist, ist mein fertiger Projektordner \href{https://github.com/cyb3rko/inf-schule-loesungen/raw/master/2/2.3/2.3.2/2.3.2.4\%20Space\%20Invaders/2.Entwicklung_des_Spiels/Space\%20Invaders.zip}{HIER} herunterzuladen.\\
+Da dieses Projekt schon etwas komplexer ist, ist mein fertiger Projektordner \href{https://github.com/cyb3rko/inf-schule-loesungen/raw/master/2/2.3/2.3.2/7.1.2.4\%20Space\%20Invaders/2.Entwicklung_des_Spiels/Space\%20Invaders.zip}{HIER} herunterzuladen.\\
 Beim Implementieren der gestellten Funktionen gehen wir am besten chronologisch durch.
 
 Angefangen habe ich mit dem simplen Bewegen des Spielers, was auch schon Teil vorheriger Projekte war:\\

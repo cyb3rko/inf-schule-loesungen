@@ -1,6 +1,6 @@
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 %	PAKET-/ UND ANDERE DOKUMENT-IMPORTS
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 \documentclass{scrartcl}   % Formateinstellungen
 \usepackage[ngerman]{babel} % deutsche Silbentrennung
 \usepackage[utf8]{inputenc} % deutsche Umlaute
@@ -28,12 +28,12 @@
 \usepackage[hidelinks]{hyperref}    % ermöglicht das Hinzufügen von Links und Verweisen innerhalb
                                     % des PDF Dokuments und weitere Einstellungen
 \usepackage[left=2.5cm,right=2cm,top=2cm,bottom=2cm,includeheadfoot]{geometry}  % Größenanpassung der Seite
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 
 
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 %   KONFIGURATIONEN
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 \begin{document}
 \setlength{\parskip}{1ex}   % Abstand zwischen Absätzen 
 \parindent 0pt  % legt Einrücke der ersten Zeile fest
@@ -55,44 +55,48 @@
 \fancypagestyle{plain}  % legt Seiten-Typen fest
 
 \newcommand{\barrow}{\item[\ding{228}]} % hinzufügen des Pfeil-Aufzählsymbols unter dem Command \barrow
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 
 
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 %   1. SEITE
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 \titlehead{\Large
 
 \begin{center}
+\centering 
+\begin{normalsize}
+\textit{Lizensiert unter einer \href{https://creativecommons.org/licenses/by-sa/4.0/legalcode.de}{CC-BY-SA 4.0-Lizenz}}
+\end{normalsize}
 \begin{framed}
-\centering {Inoffizielle Lösungen und Erklärungen - \href{https://www.inf-schule.de/inf-schule}{inf-schule\textsuperscript{\textcopyright}} (\href{https://creativecommons.org/licenses/by-sa/4.0/legalcode.de}{\textit{Lizenz}})}
+\centering {Inoffizielle Lösungen und Erklärungen - \href{https://www.inf-schule.de}{inf-schule} (\href{https://creativecommons.org/licenses/by-sa/4.0/legalcode.de}{\textit{Lizenz}})}
 
-\centering {\Large\textbf{\href{https://inf-schule.de/programmierung/oopjava}{2.3 Objektorientierte Programmierung mit Java}}}
+\centering {\Large\textbf{\href{https://www.inf-schule.de/oop/java}{7.1 Objektorientierte Programmierung mit Java}}}
 \end{framed}
 \end{center}}
 
-\title{\huge{\href{https://www.inf-schule.de/programmierung/oopjava/klassen/kapselung}{1.3\\Snap}}\\
+\title{\huge{\href{https://www.inf-schule.de/oop/java/klassen/kapselung}{1.3\\Snap}}\\
 \vspace{0.5cm}
 \begin{figure}[ht]
 	\centering
 	\includegraphics[height=4.5cm]{Snap.png}
 \end{figure}
-\vspace{2cm}}
+\vspace{0.7cm}}
 
 \author{\textbf{Benötigte IDEs:}\\
 \href{https://www.bluej.org/}{BlueJ}
-\vspace{2cm}}
+\vspace{1cm}}
 
 \date{\textbf{Verfasser:}\\
-\href{https://nikothegreek.jimdofree.com/}{Niko Diamadis}\\
-\vspace{0.5cm}
+\href{https://cyb3rko.de}{Niko Diamadis (Cyb3rKo)}\\
+\vspace{1cm}
 \textbf{Erstellungs-/ Änderungsdatum}\\
 \today\enlargethispage{4cm}}
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 %   2. SEITE
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 \doublespacing
 
 \maketitle\thispagestyle{empty}
@@ -102,12 +106,12 @@
 
 \setcounter{page}{1}
 \tableofcontents
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 
 
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 %   3. UND NACHFOLGENDE SEITEN
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 \newpage
 \pagenumbering{arabic}  % Ändern der Seitenangabe
 
@@ -133,7 +137,7 @@
 \subsection{'Testen'}
 
 Zu dieser Aufgabe sind meines Erachtens nach keine Anleitungen und/oder Erläuterungen nötig.\\
-Wenn doch Fragen aufkommen, schreib' einfach an \textbf{\href{mailto:nikodiamond3@gmail.com}{nikodiamond3@gmail.com}}.
+Wenn doch Fragen aufkommen, schreib' einfach an \textbf{\href{mailto:niko@cyb3rko.de}{niko@cyb3rko.de}}.
 
 \subsection{'Problemlösung'}
 
@@ -146,14 +150,14 @@ Es ist jedoch immer noch möglich, die Attribute \texttt{min} und \texttt{max} �
 \subsection{Privaten Zugriff}
 
 Zu dieser Aufgabe sind meines Erachtens nach keine Anleitungen und/oder Erläuterungen nötig.\\
-Wenn doch Fragen aufkommen, schreib' einfach an \textbf{\href{mailto:nikodiamond3@gmail.com}{nikodiamond3@gmail.com}}.
+Wenn doch Fragen aufkommen, schreib' einfach an \textbf{\href{mailto:niko@cyb3rko.de}{niko@cyb3rko.de}}.
 
 \newpage
 
 \section{Fachkonzept - Kapselung}
 
 Zu dieser Seite sind meines Erachtens nach keine Anleitungen und/oder Erläuterungen nötig.\\
-Wenn doch Fragen aufkommen, schreib' einfach an \textbf{\href{mailto:nikodiamond3@gmail.com}{nikodiamond3@gmail.com}}.
+Wenn doch Fragen aufkommen, schreib' einfach an \textbf{\href{mailto:niko@cyb3rko.de}{niko@cyb3rko.de}}.
 
 \newpage
 
@@ -163,14 +167,14 @@ Wenn doch Fragen aufkommen, schreib' einfach an \textbf{\href{mailto:nikodiamond
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[height=9.5cm]{2.3.1.3/3.Uebungen/1-1.png}
+	\includegraphics[height=9.5cm]{7.1.1.3/3.Uebungen/1-1.png}
 \end{figure}
 
 \subsection{private vs. public}
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[height=5cm]{2.3.1.3/3.Uebungen/2-1.png}
+	\includegraphics[height=5cm]{7.1.1.3/3.Uebungen/2-1.png}
 \end{figure}
 
 \newpage

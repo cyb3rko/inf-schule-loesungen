@@ -1,6 +1,6 @@
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 %	PAKET-/ UND ANDERE DOKUMENT-IMPORTS
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 \documentclass{scrartcl}   % Formateinstellungen
 \usepackage[ngerman]{babel} % deutsche Silbentrennung
 \usepackage[utf8]{inputenc} % deutsche Umlaute
@@ -28,12 +28,12 @@
 \usepackage[hidelinks]{hyperref}    % ermöglicht das Hinzufügen von Links und Verweisen innerhalb
                                     % des PDF Dokuments und weitere Einstellungen
 \usepackage[left=2.5cm,right=2cm,top=2cm,bottom=2cm,includeheadfoot]{geometry}  % Größenanpassung der Seite
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 
 
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 %   KONFIGURATIONEN
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 \begin{document}
 \setlength{\parskip}{1ex}   % Abstand zwischen Absätzen 
 \parindent 0pt  % legt Einrücke der ersten Zeile fest
@@ -55,44 +55,48 @@
 \fancypagestyle{plain}  % legt Seiten-Typen fest
 
 \newcommand{\barrow}{\item[\ding{228}]} % hinzufügen des Pfeil-Aufzählsymbols unter dem Command \barrow
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 
 
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 %   1. SEITE
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 \titlehead{\Large
 
 \begin{center}
+\centering 
+\begin{normalsize}
+\textit{Lizensiert unter einer \href{https://creativecommons.org/licenses/by-sa/4.0/legalcode.de}{CC-BY-SA 4.0-Lizenz}}
+\end{normalsize}
 \begin{framed}
-\centering {Inoffizielle Lösungen und Erklärungen - \href{https://www.inf-schule.de/inf-schule}{inf-schule\textsuperscript{\textcopyright}} (\href{https://creativecommons.org/licenses/by-sa/4.0/legalcode.de}{\textit{Lizenz}})}
+\centering {Inoffizielle Lösungen und Erklärungen - \href{https://www.inf-schule.de}{inf-schule} (\href{https://creativecommons.org/licenses/by-sa/4.0/legalcode.de}{\textit{Lizenz}})}
 
-\centering {\Large\textbf{\href{https://inf-schule.de/programmierung/oopjava}{2.3 Objektorientierte Programmierung mit Java}}}
+\centering {\Large\textbf{\href{https://www.inf-schule.de/oop/java}{7.1 Objektorientierte Programmierung mit Java}}}
 \end{framed}
 \end{center}}
 
-\title{\huge{\href{https://www.inf-schule.de/programmierung/oopjava/implementierung/siw}{2.2\\Schweine im Weltall}}\\
+\title{\huge{\href{https://www.inf-schule.de/oop/java/implementierung/siw}{2.2\\Schweine im Weltall}}\\
 \vspace{0.5cm}
 \begin{figure}[ht]
 	\centering
 	\includegraphics[height=4.5cm]{Schweine_im_Weltall.png}
 \end{figure}
-\vspace{2cm}}
+\vspace{0.7cm}}
 
 \author{\textbf{Benötigte IDEs:}\\
 \href{https://www.greenfoot.org/}{Greenfoot}, \href{https://www.bluej.org/}{BlueJ}
-\vspace{2cm}}
+\vspace{1cm}}
 
 \date{\textbf{Verfasser:}\\
-\href{https://nikothegreek.jimdofree.com/}{Niko Diamadis}\\
-\vspace{0.5cm}
+\href{https://cyb3rko.de}{Niko Diamadis (Cyb3rKo)}\\
+\vspace{1cm}
 \textbf{Erstellungs-/ Änderungsdatum}\\
 \today\enlargethispage{4cm}}
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 %   2. SEITE
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 \doublespacing
 
 \maketitle\thispagestyle{empty}
@@ -102,12 +106,12 @@
 
 \setcounter{page}{1}
 \tableofcontents
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 
 
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 %   3. UND NACHFOLGENDE SEITEN
-%----------------------------------------------------------------------------------------
+%--------------------------------------
 \newpage
 \pagenumbering{arabic}  % Ändern der Seitenangabe
 
@@ -132,7 +136,7 @@ public void act() {
 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[height=5.5cm]{2.3.2.2/1.Implementierung_des_Grundgeruestes/3-1.jpg}
+	\includegraphics[height=5.5cm]{7.1.2.2/1.Implementierung_des_Grundgeruestes/3-1.jpg}
 \end{figure}
 
 Nicht verwirren lassen, wenn man nur eine Zeile an Code in der if- bzw. else-Schleife stehen hat, können die geschweiften Klammern weggelassen werden. Ich benutze sie jedoch IMMER...
@@ -143,12 +147,12 @@ Nicht verwirren lassen, wenn man nur eine Zeile an Code in der if- bzw. else-Sch
 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[height=13cm]{2.3.2.2/1.Implementierung_des_Grundgeruestes/4-1.png}
+	\includegraphics[height=13cm]{7.1.2.2/1.Implementierung_des_Grundgeruestes/4-1.png}
 \end{figure}
 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[height=5cm]{2.3.2.2/1.Implementierung_des_Grundgeruestes/4-2.png}
+	\includegraphics[height=5cm]{7.1.2.2/1.Implementierung_des_Grundgeruestes/4-2.png}
 \end{figure}
 
 \newpage
@@ -247,14 +251,14 @@ $x=303$; $y=227$.
 \section{Fachkonzept - Vererbung}
 
 Zu dieser Seite sind meines Erachtens nach keine Anleitungen und/oder Erläuterungen nötig.\\
-Wenn doch Fragen aufkommen, schreib' einfach an \textbf{\href{mailto:nikodiamond3@gmail.com}{nikodiamond3@gmail.com}}.
+Wenn doch Fragen aufkommen, schreib' einfach an \textbf{\href{mailto:niko@cyb3rko.de}{niko@cyb3rko.de}}.
 
 \newpage
 
 \section{Fachkonzept - Klassenmethoden}
 
 Zu dieser Seite sind meines Erachtens nach keine Anleitungen und/oder Erläuterungen nötig.\\
-Wenn doch Fragen aufkommen, schreib' einfach an \textbf{\href{mailto:nikodiamond3@gmail.com}{nikodiamond3@gmail.com}}.
+Wenn doch Fragen aufkommen, schreib' einfach an \textbf{\href{mailto:niko@cyb3rko.de}{niko@cyb3rko.de}}.
 
 \newpage
 
@@ -269,7 +273,7 @@ Beim Durchsehen der Methoden stößt man auf die Methode \texttt{isAtEdge} mit b
 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[height=12cm]{2.3.2.2/4.Uebungen/1-1.png}
+	\includegraphics[height=12cm]{7.1.2.2/4.Uebungen/1-1.png}
 \end{figure}
 
 Wir wollen also, wenn das Schwein am Ende der Welt ist, es auf eine zufällige Position setzen.\\
@@ -290,7 +294,7 @@ Die Breite und Höhe der Welt kann man aus dem Konstruktor der \texttt{PigWorld}
 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[height=3.5cm]{2.3.2.2/4.Uebungen/1-2.jpg}
+	\includegraphics[height=3.5cm]{7.1.2.2/4.Uebungen/1-2.jpg}
 \end{figure}
 
 \subsection{Aus der Welt laufen}
@@ -328,7 +332,7 @@ Ich habe in diesem Fall eine Fallunterscheidung in 250er-Schritten eingebaut, di
 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[height=10cm]{2.3.2.2/4.Uebungen/3-1.png}
+	\includegraphics[height=10cm]{7.1.2.2/4.Uebungen/3-1.png}
 \end{figure}
 
 Der Vorteil eines Struktogramms ist, dass die Blockform eine ordentliche Anschauung ermöglicht und der Ablauf der Aktionen eindeutig ist, Nachteil ist die unklarere Darstellung verschiedener Elemente und dass ein Struktogramm innerhalb weniger Schritte sehr breit werden kann.\\
@@ -339,7 +343,7 @@ Im Vergleich dazu das Flussdiagramm:
 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[height=14cm]{2.3.2.2/4.Uebungen/3-2.png}
+	\includegraphics[height=14cm]{7.1.2.2/4.Uebungen/3-2.png}
 \end{figure}
 
 Bei Flussdiagrammen ist der Ablauf der Aktionen unklarer, da Pfeile bei Wiederholungen wieder zum Anfang oder zu anderen Elementen weiter am Ende verweisen können, jedoch ist dort klarer zu erkennen, um welche Art von Element es geht (z.B. while-Schleife, for-Schleife, if-Bedingung, ...).\\
@@ -351,7 +355,7 @@ Die Bilder findet man im Projektordner im Unterordner \texttt{images}.\\
 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[height=4cm]{2.3.2.2/4.Uebungen/3-3.png}
+	\includegraphics[height=4cm]{7.1.2.2/4.Uebungen/3-3.png}
 \end{figure}
 
 Implementiert sieht der Code anschließend z.B. so aus:
@@ -550,7 +554,7 @@ class Rechteck extends GeoFigur {
 }
     \end{lstlisting}
     \item[\textbf{c.}] Zu dieser Aufgabe sind meines Erachtens nach keine Anleitungen und/oder Erläuterungen nötig.\\
-Wenn doch Fragen aufkommen, schreib' einfach an \textbf{\href{mailto:nikodiamond3@gmail.com}{nikodiamond3@gmail.com}}.
+Wenn doch Fragen aufkommen, schreib' einfach an \textbf{\href{mailto:niko@cyb3rko.de}{niko@cyb3rko.de}}.
     \item[\textbf{d.}]
     \begin{itemize}
         \barrow \textbf{1. Zeile}\\
@@ -587,7 +591,7 @@ Wenn doch Fragen aufkommen, schreib' einfach an \textbf{\href{mailto:nikodiamond
     
     \begin{figure}[ht]
     	\centering
-    	\includegraphics[height=11cm]{2.3.2.2/4.Uebungen/6-1.png}
+    	\includegraphics[height=11cm]{7.1.2.2/4.Uebungen/6-1.png}
     \end{figure}
     
     \begin{lstlisting}
