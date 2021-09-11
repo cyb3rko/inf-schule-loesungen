@@ -33,54 +33,62 @@ Natürlich kann nicht gewährleistet werden, dass die Lösungen zu 100 % korrekt
 		<td><em>1. Information und ihre Darstellung</em></td>
 	</tr>
 	<tr>
-    <td><a href="2. Einstiege in die Programmierung.md"><img src="https://www.inf-schule.de/assets/img/icons/icon_programmierung.png" width="64"/></a></td>
-		<td><a href="2. Einstiege in die Programmierung.md">2. Einstiege in die Programmierung</a></td>
-	</tr>
-	<tr>
-    <td><img src="https://www.inf-schule.de/assets/img/icons/icon_modellierung.png" width="64"/></td>
-    <td><em>3. Modellierung von Informatiksystemen</em></td>
-	</tr>
-	<tr>
     <td><img src="https://www.inf-schule.de/assets/img/icons/icon_algorithmen.png" width="64"/></td>
-    <td><em>4. Algorithmen und Datenstrukturen</em></td>
+		<td><em>2. Algorithmen</em></td>
 	</tr>
-  <tr>
-    <td><img src="https://www.inf-schule.de/assets/img/icons/icon_software.png" width="64"/></td>
-		<td><em>5. Software und ihre Entwicklung</em></td>
+	<tr>
+    <td><img src="https://www.inf-schule.de/assets/img/icons/icon_datenbanksysteme.png" width="64"/></td>
+    <td><em>3. Datenbanksysteme</em></td>
 	</tr>
-  <tr>
-    <td><img src="https://www.inf-schule.de/assets/img/icons/icon_kommunikation.png" width="64"/></td>
-    <td><em>6. Kommunikation</em></td>
-	</tr>
-  <tr>
-    <td><img src="https://www.inf-schule.de/assets/img/icons/icon_rechner.png" width="64"/></td>
-		<td><em>7. Funktionsweise eines Rechners</em></td>
-	</tr>
-  <tr>
-    <td><img src="https://www.inf-schule.de/assets/img/icons/icon_sprachen.png" width="64"/></td>
-		<td><em>8. Sprachen und ihre Verarbeitung</em></td>
-	</tr>
-  <tr>
-    <td><img src="https://www.inf-schule.de/assets/img/icons/icon_grenzen.png" width="64"/></td>
-		<td><em>9. Grenzen von Algorithmen</em></td>
-	</tr>
-  <tr>
-    <td><img src="https://www.inf-schule.de/assets/img/icons/icon_deklarativ.png" width="64"/></td>
-		<td><em>10. Deklarative Programmierung</em></td>
-	</tr>
-  <tr>
-    <td><img src="https://www.inf-schule.de/assets/img/icons/icon_vernetzung.png" width="64"/></td>
-		<td><em>11. Vernetzung von Inhalten</em></td>
+	<tr>
+    <td><img src="https://www.inf-schule.de/assets/img/icons/icon_automaten-sprachen.png" width="64"/></td>
+    <td><em>4. Automaten und Sprachen</em></td>
 	</tr>
   <tr>
     <td><img src="https://www.inf-schule.de/assets/img/icons/icon_gesellschaft.png" width="64"/></td>
-		<td><em>12. Informatik und Gesellschaft</em></td>
+		<td><em>5. Informatik und Gesellschaft</em></td>
+	</tr>
+  <tr>
+    <td><img src="https://www.inf-schule.de/assets/img/icons/icon_imperative-programmierung.png" width="64"/></td>
+    <td><em>6. Imperative Programmierung</em></td>
+	</tr>
+  <tr>
+    <td><a href="7. Objektorientierte Programmierung.md"><img src="https://www.inf-schule.de/assets/img/icons/icon_oop.png" width="64"/></a></td>
+		<td><a href="7. Objektorientierte Programmierung.md">7. Objektorientierte Programmierung</a></td>
+	</tr>
+  <tr>
+    <td><img src="https://www.inf-schule.de/assets/img/icons/icon_deklarativ.png" width="64"/></td>
+		<td><em>8. Deklarative Programmierung</em></td>
+	</tr>
+  <tr>
+    <td><img src="https://www.inf-schule.de/assets/img/icons/icon_software.png" width="64"/></td>
+		<td><em>9. Software und ihre Entwicklung</em></td>
+	</tr>
+  <tr>
+    <td><img src="https://www.inf-schule.de/assets/img/icons/icon_rechnernetze.png" width="64"/></td>
+		<td><em>10. Kommunikation in Rechnernetzen</em></td>
+	</tr>
+  <tr>
+    <td><img src="https://www.inf-schule.de/assets/img/icons/icon_kryptologie.png" width="64"/></td>
+		<td><em>11. Kryptologie</em></td>
+	</tr>
+  <tr>
+    <td><img src="https://www.inf-schule.de/assets/img/icons/icon_rechner.png" width="64"/></td>
+		<td><em>12. Funktionsweise eines Rechners</em></td>
+	</tr>
+  <tr>
+    <td><img src="https://www.inf-schule.de/assets/img/icons/icon_informatiksysteme.png" width="64"/></td>
+		<td><em>13. Informatiksysteme</em></td>
+	</tr>
+  <tr>
+    <td><img src="https://www.inf-schule.de/assets/img/icons/icon_projekte.png" width="64"/></td>
+		<td><em>14. Projekte</em></td>
 	</tr>
 </table>
 
 ## Beispiel
 
-|[<img src="https://imgur.com/ebJpvvk.png">](2/2.3/2.3.1/2.3.1.1%20Hasen%20als%20Objekte)|[<img src="https://imgur.com/kRRMi8Z.png">](2/2.3/2.3.1/2.3.1.1%20Hasen%20als%20Objekte)|
+|[<img src="https://imgur.com/ebJpvvk.png">](7/7.1/7.1.1/7.1.1.1%20Hasen%20als%20Objekte)|[<img src="https://imgur.com/kRRMi8Z.png">](7/7.1/7.1.1/7.1.1.1%20Hasen%20als%20Objekte)|
 |:---:|:---:|
 
 ## Beitragen
